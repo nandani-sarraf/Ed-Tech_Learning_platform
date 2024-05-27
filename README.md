@@ -1,1 +1,1 @@
-# StudyNotion Edtech Project
+# BuddyCoder Edtech Project
