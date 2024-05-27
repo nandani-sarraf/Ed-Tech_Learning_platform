@@ -53,7 +53,7 @@ function Home() {
             Book a Demo
           </CTAButton>
           <CTAButton active={false} linkto={"/chat"}>
-            Chat GPT
+            Your Buddy
           </CTAButton>
         </div>
 
