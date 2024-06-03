@@ -52,8 +52,11 @@ function Home() {
           <CTAButton active={false} linkto={"/login"}>
             Book a Demo
           </CTAButton>
-          <CTAButton active={false} linkto={"/chat"}>
+          <CTAButton active={false} linkto={"https://gemini-kappa-inky.vercel.app/"}>
             Your Buddy
+          </CTAButton>
+          <CTAButton active={false} linkto={"https://compiler-5ijg.vercel.app/"}>
+            Try Code Here
           </CTAButton>
         </div>
 

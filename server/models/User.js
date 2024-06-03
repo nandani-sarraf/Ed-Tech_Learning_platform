@@ -58,10 +58,10 @@ const userSchema = new mongoose.Schema(
 		resetPasswordExpires: {
 			type: Date,
 		},
-		image: {
-			type: String,
-			required: true,
-		},
+		// image: {
+		// 	type: String,
+		// 	required: true,
+		// },
 		courseProgress: [
 			{
 				type: mongoose.Schema.Types.ObjectId,

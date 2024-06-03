@@ -27,6 +27,8 @@ import Error from "./pages/Error"
 import ForgotPassword from "./pages/ForgotPassword"
 // Pages
 import Home from "./pages/Home"
+import Technical from "./pages/Technical"
+
 import Login from "./pages/Login"
 import Signup from "./pages/Signup"
 import UpdatePassword from "./pages/UpdatePassword"
@@ -54,11 +56,13 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/Technical" element={<Technical />} />
+
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/chat" element={<Chatgpt/>} />
         <Route path="courses/:courseId" element={<CourseDetails />} />
-        <Route path="catalog/:catalogName" element={<Catalog />} />
+        <Route path="catalog/:catalogName" element={<Technical />} />
 
         {/* Open Route - for Only Non Logged in User */}
         <Route
